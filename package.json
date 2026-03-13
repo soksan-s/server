@@ -1,6 +1,9 @@
 ﻿{
   "name": "grocery-api",
   "version": "1.0.0",
+  "engines": {
+  "node": "18.x"
+  },
   "private": true,
   "type": "module",
   "scripts": {
@@ -21,8 +24,5 @@
   },
   "devDependencies": {
     "prisma": "^5.22.0"
-  },
-  "engines": {
-  "node": "18.x"
-}
+  }
 }
